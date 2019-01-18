@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<display-name>Archetype Created Web Application</display-name>
+<servlet>
+  <servlet-name>GitServlet</servlet-name>
+  <servlet-class>com.epam.red.servlet.GitServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>GitServlet</servlet-name>
+  <url-pattern>/GitServlet</url-pattern>
+</servlet-mapping>
+
+<!--<filter>-->
+  <!--<filter-name>GitFilter</filter-name>-->
+  <!--<filter-class>com.epam.red.servlet.GitFilter</filter-class>-->
+  <!--<init-param>-->
+    <!--<param-name>logFile</param-name>-->
+    <!--<param-value>AppLog.log</param-value>-->
+  <!--</init-param>-->
+<!--</filter>-->
+
+<!--<filter-mapping>-->
+  <!--<filter-name>GitFilter</filter-name>-->
+  <!--<url-pattern>/welcome.jsp</url-pattern>-->
+<!--</filter-mapping>-->
+</web-app>
